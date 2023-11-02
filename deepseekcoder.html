@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <style>
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  </style>
+  <style>
+    .image-container {
+        display: flex;
+    }
+    .image-container img {
+        width: 50%; /* 调整图像的宽度以适应页面 */
+        height: auto; /* 保持图像比例 */
+    }
+  </style>
+  <style>
+    ul.custom-list {
+      list-style-type: none; /* Removes default bullets */
+      padding: 0;
+    }
+  
+    ul.custom-list li {
+      padding-left: 20px; /* Adds spacing before the text */
+      position: relative; /* Required for absolute positioning of the custom marker */
+    }
+  
+    ul.custom-list li::before {
+      content: '•'; /* This is your custom marker */
+      /**color: blue; /* Marker color */
+      font-size: 20px; /* Marker size */
+      position: absolute; /* Positions the marker relative to the li element */
+      left: 0; /* Aligns the marker to the left */
+      top: 0; /* Aligns the marker to the top */
+    }
+  </style>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+<section class="hero teaser">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-2 publication-title">DeepSeek Coder: Empowering Everyone to Program Effortlessly</h1>
+          <div class="is-size-4 publication-authors">
+            <span class="author-block">
+              Developed by <a href="https://www.deepseek.com/">DeepSeek AI</a>
+          </div>
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://coder.deepseek.com/chat" class="external-link button is-normal is-rounded is-light">
+                  <span class="icon"> <img src="static/images/home.png" width="20px"> </span>
+                  <span>Try Now</span>
+              </a>
+              </span>
+              <span class="link-block">
+                <a href="https://github.com/deepseek-ai/deepseek-coder/" class="external-link button is-normal is-rounded is-light">
+                   <span class="icon">
+                    <i class="fab fa-github"></i>
+                    </span>
+                  <span>Github</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href="https://huggingface.co/deepseek-ai" class="external-link button is-normal is-rounded is-light">
+                   <span class="icon"> <img src="static/images/huggingface_logo.svg" width="20px"> </span>
+                  <span>HuggingFace</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--div class="hero-body">
+        <h3 text-align="left">We introduce <b>DeepSeek Coder</b>, a series of large language model for coding:</h3>
+        <ul>
+          <li>
+            -	Pretrained on <b>2 Trillion</b> tokens over more than 80 programming languages.
+          </li>
+          <li>
+            -	Two versions, <b>Base</b> and <b>Instruct</b> and various model sizes to suit different needs: <b>1B</b>, <b>7B</b>, and <b>33B</b>.
+          </li>
+          <li>
+            -	<b>Open source </b>and<b> free for research and commercial use</b>.
+          </li>
+          <li>
+            -	Features a <b>16K window </b>size, supporting <b>repo-level</b> code completion and infilling.
+          </li>
+          <li>
+            -	<b>State-of-the-Art</b> performance among open code LLMs. The 7B base model reaches the performance of CodeLLama-34B.
+          </li>
+        </ul>
+        <img src="static/images/result3.png" alt="Description of the GIF" class="center" width="75%" />
+        <h4 class="subtitle has-text-centered">
+          State-of-the-art Perforamnce on Multilingual HumanEval
+        </h4>
+        <img src="static/images/completion_demo.gif" alt="Description of the GIF" />
+        <h4 class="subtitle has-text-centered">
+          DeepSeek Coder empowers users to code efficiently and solve various computer problems easily
+        </h4>
+      </div-->
+    </div>
+  </div>
+</section>
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body" style="font-size: 18px;">
+      <h3>We introduce <b>DeepSeek Coder</b>, a series of large language model for coding</a>:</h3>
+      <ul>
+        <li>
+          &nbsp;&nbsp;&nbsp;&nbsp;•	Pretrained on <b>2 Trillion</b> tokens over more than 80 programming languages.
+        </li>
+        <li>
+          &nbsp;&nbsp;&nbsp;&nbsp;•	Two versions(<b>Base</b> and <b>Instruct</b>) and various model sizes(<b>1B</b>, <b>7B</b>, and <b>33B</b>) to suit different needs.
+        </li>
+        <li>
+          &nbsp;&nbsp;&nbsp;&nbsp;•	<b>Open source </b>and<b> free for research and commercial use</b>.
+        </li>
+        <li>
+          &nbsp;&nbsp;&nbsp;&nbsp;•	Features a <b>16K window </b>size, supporting <b>repo-level</b> code completion and infilling.
+        </li>
+        <li>
+          &nbsp;&nbsp;&nbsp;&nbsp;•	<b>State-of-the-Art</b> performance among open code models. The 7B base model reaches the performance of CodeLLama-34B. And the Instruction-tuned 33B model outperforms GPT3.5-turbo.
+        </li>
+      </ul>
+      <br>
+      <div class="image-container">
+        <img src="static/images/merged_result.png" alt="图像2">
+        <img src="static/images/human-multilingual.png" alt="图像1">
+      </div>
+      <h4 class="subtitle has-text-centered">
+        Fig. State-of-the-art Perforamnce on various Coding Benchmarks and Multilingual HumanEval
+      </h4>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Deepseek Coder comprises a series of code language models trained on both 87% code and 13% natural language in English and Chinese, with each model pre-trained on 2T tokens.
+            We provide various sizes of the code model, ranging from 1B to 33B versions.
+            Each model is pre-trained on repo-level code corpus by employing a window size of 16K and a extra fill-in-the-blank task, resulting in foundational models (DeepSeek-Coder-Base).
+            We further fine-tune the base model with 2B tokens of instruction data to get instruction-tuned models, namedly DeepSeek-Coder-Instruct.
+          </p>
+          <p>
+            For coding capabilities, DeepSeek-Coder-Base achieves state-of-the-art performance among open-source code models on multiple programming languages and various benchmarks.
+            And Compared to GPT35-turbo, DeepSeek-Coder-Instruct demonstrates superior performance in human evaluation while maintaining comparable performance in MBPP.
+          </p>
+          <p>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Demo</h2>
+        <img src="static/images/completion_demo.gif" alt="Description of the GIF" />
+        <h4 class="subtitle has-text-centered">
+          DeepSeek Coder empowers users to code efficiently and solve various computer problems easily
+        </h4>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Try DeepSeek Coder</h2>
+        <!--h2 class="title is-5">Code Completion and Infilling</h2-->
+        <h3>
+          DeepSeek Coder, powered by extensive pretraining on high-quality code data, offers accurate code completions and infills.
+          Its repository-level capabilities, including a 16k window size, enhance coding efficiency for real projects, making it a must-have tool(e.g., IDE Plugin) for developers.
+        </h3>
+        <img src="static/images/completion_demo.gif" alt="Description of the GIF" />
+      </div>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <!--h2 class="title is-5">Code Completion and Infilling</h2-->
+        <h3>DeepSeek Coder is instruction fine-tuned and aligned to help users solve various programing tasks through natural languages.</h3>
+      </div>
+    </div>
+
+    <div class="columns is-centered">
+      <div class="column">
+        <div class="content">
+          <h4 class="title is-5">Code Generation</h4>
+          <p>
+            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
+            would be impossible without nerfies since it would require going through a wall.
+          </p>
+          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/dollyzoom-stacked.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <div class="column">
+        <h4 class="title is-5">Tests Generatation</h4>
+        <div class="columns is-centered">
+          <div class="column content">
+            <p>
+              As a byproduct of our method, we can also solve the matting problem by ignoring
+              samples that fall outside of a bounding box during rendering.
+            </p>
+            <img src="static/images/2048.gif" alt="Description of the GIF" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="columns is-centered">
+      <div class="column">
+        <div class="content">
+          <h2 class="title is-5">Demo Case 3</h2>
+          <p>
+            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
+            would be impossible without nerfies since it would require going through a wall.
+          </p>
+          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/dollyzoom-stacked.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <div class="column">
+        <h2 class="title is-5">Demo Case 4</h2>
+        <div class="columns is-centered">
+          <div class="column content">
+            <p>
+              As a byproduct of our method, we can also solve the matting problem by ignoring
+              samples that fall outside of a bounding box during rendering.
+            </p>
+            <video id="matting-video" controls playsinline height="100%">
+              <source src="./static/videos/matting.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Performance</h2>
+        <p>
+          We evaluate DeepSeek Coder on various coding-related benchmarks.
+          The result shows that DeepSeek-Coder-Base-33B significantly outperforms existing open-source code LLMs. 
+          Compared with CodeLLama-34B, it leads by 7.9%, 9.3%, 10.8% and 5.9% respectively on HumanEval Python, HumanEval Multilingual, MBPP and DS-1000. 
+          Surprisingly, our DeepSeek-Coder-Base-7B reaches the performance of CodeLlama-34B.
+          And the DeepSeek-Coder-Instruct-33B model after instruction tuning outperforms GPT35-turbo on HumanEval and achieves comparable result with GPT35-turbo on MBPP.
+        </p>
+        <br>
+        <p>
+          Apart from its proficiency in coding, DeepSeek Coder also demonstrates outstanding mathematical and reasoning abilities. 
+          Without instruction tuning, the DeepSeek-Coder-Base model has shown impressive performance in mathematical reasoning evaluations. 
+        </p>
+        <br>
+        <h3 class="title is-4">Performance of different Code LLMs on various Coding Benchmarks</h3>
+        <img src="./static/images/table.png" alt="result2" class="center" width="70%">
+        <br>
+        <br>
+        <h3 class="title is-4">Performance of different Open Code Models on Multilingual HumanEval</h3>
+        <img src="./static/images/result2.png" alt="result_radar" class="center" width="85%"/>
+
+        <br>
+        <h3 class="title is-4">Performance of different Code Models on Math-Reasoning Tasks.</h3>
+        <img src="./static/images/math.png" alt="math" class="center" width="85%"/>
+      </div>
+    </div>
+    <!--/ Animation. -->
+
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">How to Use DeepSeek Coder</h2>
+        <ul>
+          <li>- Try now, please visit our <a href="https://coder.deepseek.com/chat">[<img src="static/images/home.png" width="20px"> DeepSeek-Coder Try Page]</a>.</li>
+          <li>- More details and evaluations are available on our </i></span><a href="https://github.com/deepseek-ai/DeepSeek-Coder">[<img src="static/images/github-logo.png" width="16px"> DeepSeek-Coder Github]</a>.</li>
+          <li>- Model weights are also available on <a href="https://huggingface.co/deepseek-ai">[🤗 deepseek-ai Huggingface]</a> </li>
+          <li>- Technical report will come in soon.</li>
+        </ul>
+      </div>
+    </div>
+    <!-- Concurrent Work. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Contact Us</h2>
+        <div class="content has-text-justified">
+          <p>
+            If you have any questions, please raise an issue or contact us at <a href="mailto:agi_code@deepseek.com">agi_code@deepseek.com</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
